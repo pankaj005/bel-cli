@@ -1,6 +1,6 @@
 # Shift CLI
 
-A command line interface for bootstrapping and managing [Shift](https://www.shiftnrg.org/) blockchain apps.
+A command line interface for bootstrapping and managing Belrium blockchain apps.
 
 ## Installation:
 
@@ -13,19 +13,22 @@ sudo npm install -g
 ### Add app
 
 ```
-shift-cli dapps -a
+bel-cli dapps -a
+or nodejs index.js dapps -a
 ```
 
 ### Deposit
 
 ```
-shift-cli dapps -d
+bel-cli dapps -d
+or nodejs index.js dapps -d
 ```
 
 ### Withdraw
 
 ```
-shift-cli dapps -w
+bel-cli dapps -w
+or nodejs index.js dapps -w
 ```
 
 ## Contracts
@@ -33,13 +36,15 @@ shift-cli dapps -w
 ### Add contract
 
 ```
-shift-cli contract -a
+bel-cli contract -a
+or nodejs index.js contract -a
 ```
 
 ### Delete contract
 
 ```
-shift-cli contract -d
+bel-cli contract -d
+or nodejs index.js contract -d
 ```
 
 ## Crypto
@@ -47,44 +52,28 @@ shift-cli contract -d
 ### Generate public key
 
 ```
-shift-cli crypto -p
+bel-cli crypto -p
+or nodejs index.js crypto -p
 ```
 
 ### Generate accounts
 
 ```
-shift-cli crypto -g
+bel-cli crypto -g
+or nodejs index.js crypto -g
 ```
 
 ### Generate new genesis block
 
 ```
-shift-cli crypto -b
+bel-cli crypto -b
+or nodejs index.js crypto -g
 ```
 
 ### Help
 
 ```
-shift-cli -h
+bel-cli -h
+or nodejs index.js -h
 ```
 
-## Authors
-
-- Boris Povod <boris@crypti.me>
-- Pavel Nekrasov <landgraf.paul@gmail.com>
-- Oliver Beddows <oliver@lisk.io>
-- GoldenEye (Shift Team)
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2017 Shift
-Copyright (c) 2016 Lisk
-Copyright (c) 2015 Crypti
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
