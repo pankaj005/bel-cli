@@ -1,4 +1,4 @@
-# Shift CLI
+# Belrium CLI
 
 A command line interface for bootstrapping and managing Belrium blockchain apps.
 
