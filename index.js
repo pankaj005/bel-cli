@@ -13,7 +13,7 @@ var npm = require("npm");
 var request = require("request");
 var valid_url = require("valid-url");
 
-var sdk = "https://github.com/ShiftNrg/shift-apps-sdk.git";
+var sdk = "https://github.com/pankaj005/bel-sidechain.git";
 
 program.version("1.1.6");
 
@@ -253,7 +253,7 @@ program
 										console.log("Creating App genesis block");
 										var dappBlock = dappHelper.new(account, block, result.publicKeys.split(","));
 
-										console.log("Fetching Shift Apps SDK");
+										console.log("Fetching Belrium Apps SDK");
 										var dappsPath = path.join(".", "dapps");
 										fs.exists(dappsPath, function (exists) {
 											if (!exists) {
@@ -385,7 +385,7 @@ program
 						{
 							type: "password",
 							name: "secret",
-							message: "Enter secret of your testnet account",
+							message: "Enter secret of your account",
 							validate: function (value) {
 								var done = this.async();
 
